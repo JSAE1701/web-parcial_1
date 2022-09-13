@@ -1,0 +1,102 @@
+body
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #DCD2D3;
+}
+
+img
+{
+    height: 100%;
+    width: 100%;
+    max-width: 80vw;
+    max-height: auto;
+    border-radius: 30px;
+}
+
+.title
+{
+    top: 0;
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.card
+{
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4A84B8b2;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.card_title
+{
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4A84B8b2;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.card_apod
+{
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: #4A84B8b2;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.news_body
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 1em;
+    width: 100%;
+    max-width: 85vw;
+}
+
+.news_author, .news_head
+{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.apod
+{
+    text-align: center;
+    width: 100%; 
+    padding: 1em;
+    color: #fff;
+}
+
+.apod_head
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.apod_text
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
