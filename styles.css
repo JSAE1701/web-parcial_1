@@ -100,3 +100,55 @@ img
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
 }
+
+.external_links
+{
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 1em;
+    text-decoration-line: none; 
+    color: black;
+}
+
+.external_links:hover
+{
+    color: #B190EC;
+    transition: 0.2s;
+}
+
+.underlblue
+{
+    background-image: linear-gradient(
+        transparent 0%,
+        transparent 90%,
+        #B190EC 90%,
+        #B190EC 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 500ms;
+}
+
+.underlblue:hover
+{
+    background-size: 100% 100%;
+    background-position-x: left;
+    transition: 500ms;
+}
+
+
+.card_externalinks
+{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #255366b2;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 1em;
+}
